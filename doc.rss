@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <!-- Information about the channel -->
+        <title>Top VideoGames Enjoyer</title>
+        <link>https://eduardgabrielmirea.github.io/proyecto.github.io/</link>
+        <description>Blog de Videojuegos</description>
+        <language>es-ES</language>
+
+        <!-- First article -->
+        <item>
+            <title>Mi pagina</title>
+            <link>https://github.com/EduardGabrielMirea/Pagina-web-Blog-Videojuegos.git</link>
+            <guid>https://github.com/EduardGabrielMirea/Pagina-web-Blog-Videojuegos.git</guid>
+            <description>En este apartado explico un poco sobre mi vida y cómo he llegado a mi amor hacia los videojuegos.</description>
+        </item>
+
+        <!-- Second article -->
+        <item>
+            <title>Mi Blog</title>
+            <link>https://github.com/EduardGabrielMirea/Pagina-web-Blog-Videojuegos.git</link>
+            <guid>https://github.com/EduardGabrielMirea/Pagina-web-Blog-Videojuegos.git</guid>
+            <description>En este apartado hago una comparación de mis dos videojuegos preferidos.</description>
+        </item>
+
+        <!-- Third article -->
+        <item>
+            <title>Formulario</title>
+            <link>https://github.com/EduardGabrielMirea/Pagina-web-Blog-Videojuegos.git</link>
+            <guid>https://github.com/EduardGabrielMirea/Pagina-web-Blog-Videojuegos.git</guid>
+            <description>En este apartado hay un pequeño formulario para rellenar.</description>
+        </item>
+    </channel>
+</rss>
