@@ -1,0 +1,303 @@
+body {
+    background-attachment: scroll;
+    margin: 0;
+    background-color: #999a99;
+    background-size: 400% 400%;
+    /* Añadido para asegurar que el fondo cubra completamente */
+}
+
+hr {
+    margin-left: 18%;
+    padding: 1px 16px;
+}
+
+/* Estilos para la barra de navegación */
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    background: linear-gradient(45deg, #fdfdfd, #999a99, #5e5e5e, #313231);
+    background-size: 400% 400%;
+}
+
+li a {
+    display: block;
+    align-items: center;
+    color: #04AA6D;
+    padding: 5px 10px;
+    text-decoration: double;
+}
+
+li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Header */
+header {
+    margin-left: 18%;
+    padding: 1px 16px;
+    position: relative;
+    display: flex;
+    align-items: top;
+    background: transparent;
+    box-shadow: inset 0 -5px 30px rgba(49, 73, 125, .1), inset 0 -10px 50px rgba(49, 73, 125, .3);
+    border-radius: 10px;
+    animation: animacionFondo 6s ease-in infinite normal;
+    height: auto;
+    /*vh*/
+}
+
+/* Estilos para el logo */
+.logo-container {
+    position: relative;
+    display: table-column-group;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.logo img {
+    width: 18vw;
+    height: auto;
+    filter: drop-shadow(5px 5px 5px #fa0202);
+}
+
+/* Estilos para el nombre*/
+.nombre {
+    width: 20vw;
+    height: auto;
+    display: flex;
+    color: #040404;
+    text-shadow: white 0px 0px 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+/* Estilos para el banner */
+.banner {
+    position: relative;
+    align-self: center;
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    padding: 10%;
+    animation: textAnimation 10s linear infinite;
+    opacity: 0;
+    color: #040404;
+    text-shadow: white 0px 0px 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+
+@keyframes textAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+}
+
+
+/* Body*/
+
+
+/* ---> MAIN */
+main {
+    margin-left: 18%;
+    padding: 1px 16px;
+    background: transparent;
+    box-shadow: inset 0 -5px 30px rgba(49, 73, 125, .1), inset 0 -10px 50px rgba(49, 73, 125, .3);
+    border-radius: 10px;
+    animation: animacionFondo 6s ease-in infinite normal;
+    /* Duración de la animación y bucle infinito */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Titulos */
+
+.contenedor-subtitulo::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    border: solid #0b0b0b;
+}
+
+.contenedor-subtitulo {
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+    color: #000000;
+    box-shadow: 0px 0px 20px #050505;
+    height: 50px;
+    width: 100px;
+}
+
+.contenedor-foto::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px #0c0c0c;
+    /* Animación de rotación en bucle para el borde exterior */
+}
+
+.contenedor-foto {
+    position: relative;
+    padding: 10px;
+    display: block;
+    box-shadow: 0px 0px 20px #030303;
+    height: 350px;
+    width: 200px;
+    float: right;
+    margin-left: 60vw;
+}
+
+.soy,
+.gusta {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    color: #040404;
+    text-shadow: white 0px 0px 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.yo {
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.soy:hover {
+    align-self: flex-start;
+    /* Alinea a la izquierda */
+    transform: scale(1.1);
+}
+
+.gusta:hover {
+    align-self: center;
+    /* Alinea en el medio */
+    transform: scale(1.1);
+}
+
+/* --> SECTION */
+
+section {
+    margin-left: 18%;
+    padding: 1px 16px;
+    background: transparent;
+    box-shadow: inset 0 -5px 30px rgba(49, 73, 125, .1), inset 0 -10px 50px rgba(49, 73, 125, .3);
+    border-radius: 10px;
+    animation: animacionFondo 6s ease-in infinite normal;
+
+    /* Centra el contenido del main */
+
+    /* Fondo inicial */
+
+    /* Duración de la animación y bucle infinito */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 18%;
+    padding: 1px 16px;
+    background: transparent;
+    box-shadow: inset 0 -10px 30px rgba(1, 79, 247, 0.1), inset 0 -10px 50px rgba(1, 79, 247, 0.1);
+    border-radius: 10px;
+    animation: animacionFondo 6s ease-in infinite normal;
+}
+
+.titulo {
+    align-self: center;
+    text-decoration-line: underline;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #0a0a0a;
+    position: relative;
+    font-size: 40px;
+    animation: textAnimation 3s linear;
+    /* Animación de texto */
+}
+
+@keyframes textAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(20px);
+    }
+}
+
+.box1,
+.box3 {
+    padding: 1%;
+    border-radius: 20px 8px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 9px 17px 2px;
+    background: linear-gradient(25deg, #07f802, #2d8e30, #8cb391, #e6eee8);
+    font-family: 'Times New Roman', Times, serif;
+    color: #0e0e0e;
+    text-shadow: white 0px 0px 8px;
+    width: 100%;
+    height: auto;
+    font-size: medium;
+}
