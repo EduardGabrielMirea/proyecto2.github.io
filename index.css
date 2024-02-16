@@ -13,7 +13,7 @@ hr {
 
 /* Estilos para la barra de navegación */
 
-ul {
+.menu {
     list-style-type: none;
     align-items: center;
     margin: 0;
